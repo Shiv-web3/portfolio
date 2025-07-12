@@ -1,12 +1,4 @@
-   import { BrowserRouter as Router, ... } from 'react-router-dom';
-   ...
-   function App() {
-     return (
-       <Router basename={process.env.PUBLIC_URL}>
-         ...
-       </Router>
-     );
-   }
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { FaLinkedin, FaXTwitter, FaInstagram, FaFacebook, FaGithub, FaChartLine, FaGlobe, FaUsers, FaApple, FaArrowUp } from 'react-icons/fa6';
 import { useEffect, useState } from 'react';
 import emailjs from '@emailjs/browser';
@@ -904,7 +896,7 @@ function Contact() {
 
 function App() {
   return (
-    <Router>
+      <Router basename={process.env.PUBLIC_URL}>
       <div className="flex flex-col min-h-screen bg-background text-primary font-sans">
         <Navbar />
         <main className="flex-1">
