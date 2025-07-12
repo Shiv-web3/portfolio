@@ -1,5 +1,12 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+   import { BrowserRouter as Router, ... } from 'react-router-dom';
+   ...
+   function App() {
+     return (
+       <Router basename={process.env.PUBLIC_URL}>
+         ...
+       </Router>
+     );
+   }
 import { FaLinkedin, FaXTwitter, FaInstagram, FaFacebook, FaGithub, FaChartLine, FaGlobe, FaUsers, FaApple, FaArrowUp } from 'react-icons/fa6';
 import { useEffect, useState } from 'react';
 import emailjs from '@emailjs/browser';
