@@ -1,0 +1,73 @@
+@import '@fontsource/poppins/latin.css';
+@import '@fontsource/space-grotesk/latin.css';
+@import '@fontsource/anton/latin.css';
+@import '@fontsource/montserrat/latin-italic.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to public/index.html for Noto Sans Italic: 
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,400&display=swap" rel="stylesheet">
+*/
+
+body {
+  font-family: 'Poppins', 'Space Grotesk', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  background: linear-gradient(120deg, #181c24 0%, #23263a 60%, #1a2233 100%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* Subtle star/particle overlay (optional, for extra polish) */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background: url('data:image/svg+xml;utf8,<svg width="100%25" height="100%25" xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="1" fill="%23fff" fill-opacity="0.08"/><circle cx="80" cy="40" r="1.5" fill="%23fff" fill-opacity="0.06"/><circle cx="200" cy="120" r="1" fill="%23fff" fill-opacity="0.07"/><circle cx="300" cy="200" r="1.2" fill="%23fff" fill-opacity="0.05"/></svg>');
+  z-index: 0;
+}
+
+/* Responsive Navbar and Hero adjustments */
+@media (max-width: 768px) {
+  nav {
+    font-size: 0.95rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  nav .flex.space-x-6 > * {
+    margin-right: 0.75rem !important;
+    font-size: 0.95rem !important;
+  }
+  .text-5xl {
+    font-size: 2.2rem !important;
+  }
+  .text-7xl {
+    font-size: 2.8rem !important;
+  }
+  .max-w-6xl {
+    max-width: 98vw !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  .py-20 {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+  .gap-10 {
+    gap: 1.5rem !important;
+  }
+  .px-4 {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+  .rounded-3xl {
+    border-radius: 1.25rem !important;
+  }
+  .w-56, .md\:w-64 {
+    width: 8rem !important;
+  }
+  .h-56, .md\:h-64 {
+    height: 8rem !important;
+  }
+}
