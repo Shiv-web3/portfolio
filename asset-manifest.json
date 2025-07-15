@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7cd03199.css",
-    "main.js": "/portfolio/static/js/main.b4998b0a.js",
+    "main.css": "/portfolio/static/css/main.13912459.css",
+    "main.js": "/portfolio/static/js/main.26ab6761.js",
     "static/js/488.963a9ec1.chunk.js": "/portfolio/static/js/488.963a9ec1.chunk.js",
     "static/media/digital-shelf-thumb.png": "/portfolio/static/media/digital-shelf-thumb.044b70c4062ec59c8f4f.png",
     "static/media/lithosphere-thumb.png": "/portfolio/static/media/lithosphere-thumb.ccd83a429188f2ebf5f2.png",
@@ -80,12 +80,12 @@
     "static/media/poppins-latin-900-normal.woff2": "/portfolio/static/media/poppins-latin-900-normal.7b1a4c85ba657964c6b6.woff2",
     "static/media/poppins-latin-100-normal.woff2": "/portfolio/static/media/poppins-latin-100-normal.9c2fa323c2d99d082f42.woff2",
     "index.html": "/portfolio/index.html",
-    "main.7cd03199.css.map": "/portfolio/static/css/main.7cd03199.css.map",
-    "main.b4998b0a.js.map": "/portfolio/static/js/main.b4998b0a.js.map",
+    "main.13912459.css.map": "/portfolio/static/css/main.13912459.css.map",
+    "main.26ab6761.js.map": "/portfolio/static/js/main.26ab6761.js.map",
     "488.963a9ec1.chunk.js.map": "/portfolio/static/js/488.963a9ec1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7cd03199.css",
-    "static/js/main.b4998b0a.js"
+    "static/css/main.13912459.css",
+    "static/js/main.26ab6761.js"
   ]
 }
