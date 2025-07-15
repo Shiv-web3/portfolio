@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.dbc45471.css",
-    "main.js": "/portfolio/static/js/main.13a6a273.js",
+    "main.js": "/portfolio/static/js/main.fb01b389.js",
     "static/js/488.963a9ec1.chunk.js": "/portfolio/static/js/488.963a9ec1.chunk.js",
     "static/media/digital-shelf-thumb.png": "/portfolio/static/media/digital-shelf-thumb.044b70c4062ec59c8f4f.png",
     "static/media/lithosphere-thumb.png": "/portfolio/static/media/lithosphere-thumb.ccd83a429188f2ebf5f2.png",
@@ -81,11 +81,11 @@
     "static/media/poppins-latin-100-normal.woff2": "/portfolio/static/media/poppins-latin-100-normal.9c2fa323c2d99d082f42.woff2",
     "index.html": "/portfolio/index.html",
     "main.dbc45471.css.map": "/portfolio/static/css/main.dbc45471.css.map",
-    "main.13a6a273.js.map": "/portfolio/static/js/main.13a6a273.js.map",
+    "main.fb01b389.js.map": "/portfolio/static/js/main.fb01b389.js.map",
     "488.963a9ec1.chunk.js.map": "/portfolio/static/js/488.963a9ec1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dbc45471.css",
-    "static/js/main.13a6a273.js"
+    "static/js/main.fb01b389.js"
   ]
 }
