@@ -1,51 +1,58 @@
-# Srijan Mishra (Shivam) Portfolio
+Shiv’s Portfolio
 
-A modern, multipage portfolio website built with React and Tailwind CSS. Clean, futuristic, and fully responsive. Deployed on GitHub Pages.
+My personal portfolio website showcasing my projects, skills, and journey as a web developer. Built with modern technologies and featuring a clean, futuristic design.
 
-## Features
-- Multipage: Home, Projects, Social Showcase, About, Contact
-- Futuristic black/gray/white palette
-- Responsive (mobile & desktop)
-- PWA-ready
-- Social icons in footer
-- Easy deployment to GitHub Pages
+Live Site: <https://shiv-web3.github.io/portfolio>
 
-## Tech Stack
-- React
-- Tailwind CSS v3
-- React Router
-- GitHub Pages
+About This Portfolio
 
-## Getting Started
+This is my personal space on the web where I showcase:
 
-### Prerequisites
-- Node.js (v16+ recommended)
-- npm
+Projects: Web applications and development work I’ve built
+Skills: Technical expertise and tools I work with
+About Me: My background, experience, and what drives me
+Contact: Ways to connect and collaborate
 
-### Install dependencies
+Built With
+
+React Frontend framework
+Tailwind CSS - Styling and responsive design
+React Router - Navigation between pages
+GitHub Pages - Hosting and deployment
+
+Features
+
+- Fully responsive design (mobile, tablet, desktop)
+- Modern black/gray/white aesthetic
+- Smooth page transitions
+- Progressive Web App (PWA) ready
+- Fast loading and optimized performance
+
+Running Locally
+
+Want to see the code in action?
+
 ```bash
+# Clone the repo
+git clone https://github.com/Shiv-web3/portfolio.git
+cd portfolio
+
+# Install dependencies
 npm install
-```
 
-### Run locally
-```bash
+# Start development server
 npm start
 ```
-App will be available at [http://localhost:3000](http://localhost:3000)
 
-### Build for production
-```bash
-npm run build
-```
+Open `http://localhost:3000` to view it locally.
 
-### Deploy to GitHub Pages
-1. Set the `homepage` field in `package.json` to your repo URL (already set for srijanmishra.github.io/portfolio).
-2. Run:
-```bash
-npm run deploy
-```
-This will build and deploy the site to the `gh-pages` branch.
+Get In Touch
 
----
+- Portfolio: <https://shiv-web3.github.io/portfolio>
+- GitHub: [@Shiv-web3](https://github.com/Shiv-web3)
+- Email: shiv.web3@gmail.com
+- LinkedIn: https://www.linkedin.com/in/srijan-mishraa
 
-Feel free to customize and expand! 
+-----
+
+Feel free to explore the code and reach out if you’d like to connect or collaborate!
