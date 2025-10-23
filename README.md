@@ -28,23 +28,6 @@ Features
 - Progressive Web App (PWA) ready
 - Fast loading and optimized performance
 
-Running Locally
-
-Want to see the code in action?
-
-```bash
-# Clone the repo
-git clone https://github.com/Shiv-web3/portfolio.git
-cd portfolio
-
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-```
-
-Open `http://localhost:3000` to view it locally.
 
 Get In Touch
 
